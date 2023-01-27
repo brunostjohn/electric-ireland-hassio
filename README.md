@@ -12,8 +12,10 @@ Warning: this requires *some* sysadmin experience to set up properly. I'm runnin
 ### Things you will need
 Python dependencies:
 - Selenium
+
 The rest should be covered by default Python packages.
 OS dependencies:
+
 - Cron
 - Docker
 - Python
