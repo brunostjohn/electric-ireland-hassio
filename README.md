@@ -1,7 +1,7 @@
 # electric-ireland-hassio
 A sort of good enough way to add electricity data from Electric Ireland's smart meters to Home Assistant.
 
-![Lovelace Screenshot] (https://raw.githubusercontent.com/brunostjohn/electric-ireland-hassio/main/lovelace_screenshot.png)
+![Lovelace Screenshot](https://raw.githubusercontent.com/brunostjohn/electric-ireland-hassio/main/lovelace_screenshot.png)
 
 ## How it works
 It's a bunch of scripts that use Selenium to drive a Firefox docker container (to bypass the need for a Window Server) to download a CSV from Your Account Online -> View Account -> Details -> Download your smart meter data. It makes a bunch of assumptions that may not be true for your use case but could serve as a foundation to make something that actually works for you. It definitely works for me but YMMV. For any issues, open an issue on GitHub and I'll try to sort it but can't promise much.
