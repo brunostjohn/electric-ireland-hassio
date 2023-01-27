@@ -1,0 +1,16 @@
+sensor:
+  - platform: command_line
+    name: Electricity Usage
+    command: "python3 process_electricity.py kwh"
+    unit_of_measurement: "kWh"
+    unique_id: kwh_usage
+  - platform: command_line
+    name: Electricity Cost
+    command: "python3 process_electricity.py price"
+    unit_of_measurement: "€"
+    unique_id: electricity_price
+  - platform: command_line
+    name: Carbon Footprint
+    command: "python3 process_electricity.py carbon"
+    unit_of_measurement: "kg"
+    unique_id: carbon_footprint
